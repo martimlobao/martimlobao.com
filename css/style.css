@@ -57,18 +57,18 @@ ul { display: block; }
 ul li { display: inline-block; margin: 0 5px; }
 ul li a { opacity: 0.5; }
 ul li a:hover { opacity: 1; -webkit-transition:all 0.2s ease-in-out; }
-ul li.facebook a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/facebook_icn.png') top center no-repeat; text-indent: -9999px; }
-ul li.instagram a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/instagram_icn.png') top center no-repeat; text-indent: -9999px; }
-ul li.linkedin a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/linkedin_icn.png') top center no-repeat; text-indent: -9999px; }
-/*ul li.googleplus a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/googleplus_icn.png') top center no-repeat; text-indent: -9999px; }*/
-ul li.twitter a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/twitter_icn.png') top center no-repeat; text-indent: -9999px; }
-ul li.strava a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/strava_icn.png') top center no-repeat; text-indent: -9999px; }
-ul li.email a { width: 32px; height: 32px; display: block; background: transparent url('/home/images/email_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.facebook a { width: 32px; height: 32px; display: block; background: transparent url('/images/facebook_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.instagram a { width: 32px; height: 32px; display: block; background: transparent url('/images/instagram_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.linkedin a { width: 32px; height: 32px; display: block; background: transparent url('/images/linkedin_icn.png') top center no-repeat; text-indent: -9999px; }
+/*ul li.googleplus a { width: 32px; height: 32px; display: block; background: transparent url('/images/googleplus_icn.png') top center no-repeat; text-indent: -9999px; }*/
+ul li.twitter a { width: 32px; height: 32px; display: block; background: transparent url('/images/twitter_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.strava a { width: 32px; height: 32px; display: block; background: transparent url('/images/strava_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.email a { width: 32px; height: 32px; display: block; background: transparent url('/images/email_icn.png') top center no-repeat; text-indent: -9999px; }
 
-.logo h1 a { width: 180px; height: 180px; display: block; background: url('/home/images/logo.png') top center no-repeat; text-indent: -9999px; padding: 0; margin: 0 auto; border: none; text-align: center; }
+.logo h1 a { width: 180px; height: 180px; display: block; background: url('/images/logo.png') top center no-repeat; text-indent: -9999px; padding: 0; margin: 0 auto; border: none; text-align: center; }
 
 .content { max-width: 480px; padding: 0 20px; display: block; margin: 15% auto 0; }
 
 .vegas-loading { display: none; }
-.vegas-overlay { background: transparent url('/home/images/overlay.png'); opacity: 0.5; z-index: -1; }
+.vegas-overlay { background: transparent url('/images/overlay.png'); opacity: 0.5; z-index: -1; }
 .vegas-background { image-rendering: optimizeQuality; -ms-interpolation-mode: bicubic; z-index: -2; }
