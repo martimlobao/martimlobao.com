@@ -1,0 +1,74 @@
+/***** Reset *****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***** Styles *****/
+html { width: 100%; -webkit-font-smoothing: antialiased; }
+body { width: 100%; padding: 0; margin: 0; background: #000; text-align: center; }
+
+p { font-size: 1.2em; line-height: 1.35em; color: #fff; padding: 0; margin: 60px 0 40px; font-family: 'helvetica neue', helvetica, arial, sans-serif; font-weight: 200; }
+p strong { font-weight: 500; }
+
+a { color: #ffcc00; text-decoration: none; }
+a:hover { color: #fff; -webkit-transition:all 0.2s ease-in-out; }
+
+ul { display: block; }
+ul li { display: inline-block; margin: 0 5px; }
+ul li a { opacity: 0.5; }
+ul li a:hover { opacity: 1; -webkit-transition:all 0.2s ease-in-out; }
+ul li.facebook a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/facebook_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.instagram a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/instagram_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.linkedin a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/linkedin_icn.png') top center no-repeat; text-indent: -9999px; }
+/*ul li.googleplus a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/googleplus_icn.png') top center no-repeat; text-indent: -9999px; }*/
+ul li.twitter a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/twitter_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.strava a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/strava_icn.png') top center no-repeat; text-indent: -9999px; }
+ul li.email a { width: 32px; height: 32px; display: block; background: transparent url('http://martimlobaoprofile.appspot.com/images/email_icn.png') top center no-repeat; text-indent: -9999px; }
+
+.logo h1 a { width: 180px; height: 180px; display: block; background: url('http://martimlobaoprofile.appspot.com/images/logo.png') top center no-repeat; text-indent: -9999px; padding: 0; margin: 0 auto; border: none; text-align: center; }
+
+.content { max-width: 480px; padding: 0 20px; display: block; margin: 15% auto 0; }
+
+.vegas-loading { display: none; }
+.vegas-overlay { background: transparent url('http://martimlobaoprofile.appspot.com/images/overlay.png'); opacity: 0.5; z-index: -1; }
+.vegas-background { image-rendering: optimizeQuality; -ms-interpolation-mode: bicubic; z-index: -2; }
