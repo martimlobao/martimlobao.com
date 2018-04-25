@@ -2,11 +2,12 @@
 <!--I'm not really a real web designer. I'd therefore like to acknowledge and thank the real designer from whom I so shamelessly ripped off the HTML and CSS source: Jon Phillips (http://jonphillips.ca). The beautifully designed icons are from Font Awesome (https://fontawesome.com) and are licensed under the Creative Commons Attribution 4.0 International license (https://fontawesome.com/license).-->
 <html dir="ltr" lang="en-US">
 <head>
-<title>Martim Lobao</title>
+	<title>Martim Lobao</title>
 	<meta charset="utf-8">
 	<meta name="description" content="I'm Martim. I like biking and playing with numbers.">
 	<meta name="keywords" content="Martim Lobao, Martim, Lobao, data science, Android Police, Android, data">
 	<meta name="author" content="Martim Lobao">
+	<meta name="viewport" content="width=400, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="/images/favicon/mfavicon.ico" type="image/x-icon" /> 
@@ -15,12 +16,37 @@
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
 	<script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.vegas.js"></script>
-		<script type="text/javascript">
-		  $(document).ready(function() { 
-				$(".content").css("display", "none");
-				$(".content").fadeIn(1500);
-			});
+	<script type="text/javascript">
+	  $(document).ready(function() { 
+			$(".content").css("display", "none");
+			$(".content").fadeIn(1500);
+		});
+	</script>
+	<!-- Google social markup: https://developers.google.com/webmasters/social-markup/ -->
+		<script type="application/ld+json">
+			{ "@context" : "http://schema.org",
+				"@type" : "Person",
+				"name" : "Martim Lobao",
+				"url" : "https://martimlobao.com",
+				"sameAs" : [ "https://twitter.com/martimlobao",
+						"https://instagram.com/martimlobao",
+						"https://www.linkedin.com/in/martimlobao",
+						"https://github.com/martimlobao",
+						"https://www.strava.com/athletes/martimlobao",
+						"https://plus.google.com/u/0/+MartimLobao",
+						"https://plus.google.com/+MartimLobao"] 
+			}
 		</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118201624-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-118201624-1');
+	</script>
+
 </head>	
 <body>
 <div class="content">
