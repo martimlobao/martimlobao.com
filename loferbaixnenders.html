@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-PT">
+<head>
+	<title>Loferbaixnenders</title>
+</head>
+<body>
+
+Portugues: <br><textarea id="port" rows="4" cols="50"></textarea>
+<button id="translate">Traduzir!</button>
+
+<hr>
+Lobanes: <br><div id="result"></div>
+
+<script>
+function translate() {
+	var str = document.getElementById('port').value;
+
+	str = str.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+
+	var mapObj = {
+		a:"aix",
+		e:"ender",
+		i:"inix",
+		o:"ofer",
+		u:"ufux",
+		A:"Aix",
+		E:"Ender",
+		I:"Inix",
+		O:"Ofer",
+		U:"Ufux",
+	};
+
+	var html = str.replace(/a|e|i|o|u/gi, function(matched){
+		return mapObj[matched];
+	});
+
+	document.getElementById('result').innerHTML = html;
+}
+
+document.getElementById('translate').addEventListener('click', translate);
+</script>
+
+</body>
+</html>
