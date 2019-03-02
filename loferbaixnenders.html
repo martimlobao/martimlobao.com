@@ -25,14 +25,24 @@
 </head>
 <body>
 
-Portugues: <br><textarea id="port" rows="4" cols="50"></textarea>
-<button id="translate">Traduzir!</button>
+<div id="traduzir"><b>Portugues:</b> <br><textarea id="port" rows="4" cols="50"></textarea>
+<button id="translate_pt">Traduzir!</button>
 
-<hr>
-Lobanes: <br><div id="result"></div>
+<br/>
+<b>Lobanes:</b> <br><div id="result_lb"></div></div>
+
+<br/>
+<br/>
+<br/>
+
+<div id="traixdufuxzinixr"><b>Loferbaixnenders:</b> <br><textarea id="lofer" rows="4" cols="50"></textarea>
+<button id="translate_lb">Traixdufuxzinixr!</button>
+
+<br/>
+<b>Poferrtufuxgufuxenders:</b> <br><div id="result_pt"></div></div>
 
 <script>
-function translate() {
+function translate_pt() {
 	var str = document.getElementById('port').value;
 
 	str = str.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
@@ -54,10 +64,40 @@ function translate() {
 		return mapObj[matched];
 	});
 
-	document.getElementById('result').innerHTML = html;
+	document.getElementById('result_lb').innerHTML = html;
 }
 
-document.getElementById('translate').addEventListener('click', translate);
+document.getElementById('translate_pt').addEventListener('click', translate_pt);
+</script>
+
+
+<script>
+function translate_lb() {
+	var str = document.getElementById('lofer').value;
+
+	str = str.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+
+	var mapObj = {
+		aix:"a",
+		ender:"e",
+		inix:"i",
+		ofer:"o",
+		ufux:"u",
+		Aix:"A",
+		Ender:"E",
+		Inix:"I",
+		Ofer:"O",
+		Ufux:"U",
+	};
+
+	var html = str.replace(/aix|ender|inix|ofer|ufux/gi, function(matched){
+		return mapObj[matched];
+	});
+
+	document.getElementById('result_pt').innerHTML = html;
+}
+
+document.getElementById('translate_lb').addEventListener('click', translate_lb);
 </script>
 
 </body>
