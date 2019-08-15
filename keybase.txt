@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/martim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://martimlobao.com
+  * I am martim (https://keybase.io/martim) on keybase.
+  * I have a public key ASCkHavDI_pjWlq3RE5ptxtv-oJj4wsnOU4BMLeVOqZLNwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a41dabc323fa635a5ab7444e69b71b6ffa8263e30b27394e0130b7953aa64b370a",
+      "host": "keybase.io",
+      "kid": "0120a41dabc323fa635a5ab7444e69b71b6ffa8263e30b27394e0130b7953aa64b370a",
+      "uid": "4172d88402177d7805ce40e8d424d719",
+      "username": "martim"
+    },
+    "merkle_root": {
+      "ctime": 1565897592,
+      "hash": "e3af96a1de342d5476ca24bb22846c4f63713c1640f08ee33dff2fe78f957f4bec52b5f7a0ed37fda1f3229642ad7becbb8c2e529f1e1ef73a1fd8258019d375",
+      "hash_meta": "7f93b541784bafa63c576b4f68e2a91d0c5864a6791f53255c7a60a5fb7c583f",
+      "seqno": 6024889
+    },
+    "service": {
+      "entropy": "aAN0whYvmACDM7x29pPqz20n",
+      "hostname": "martimlobao.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.3.0"
+  },
+  "ctime": 1565897601,
+  "expire_in": 504576000,
+  "prev": "7dd30f5406dd827d8abebf1a289162c8f307464b815cff3d32afff3349fb09f3",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpB2rwyP6Y1pat0ROabcbb/qCY+MLJzlOATC3lTqmSzcKp3BheWxvYWTESpcCCcQgfdMPVAbdgn2Kvr8aKJFiyPMHRkuBXP89Mq//M0n7CfPEIOunJ8nwCrP13bq4tKt/JQlpMoVU6RHwjpKzAXZ41iB7AgHCo3NpZ8RAINAo3Z86yy667E3fKCVxNiioOErAHOf5AVkfohdFikJGM/9rIYpN7o6DmF9jCz0wId9ieHL4kKEhTnJBh803D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKe7lpQx0GpnlgUTm53FEALwxXicXtfBpWnJSkmAofbwo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/martim
+
+==================================================================
