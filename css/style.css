@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,6 +63,7 @@ ul li.instagram a { width: 32px; height: 32px; display: block; background: trans
 ul li.linkedin a { width: 32px; height: 32px; display: block; background: transparent url('/images/linkedin.svg') top center no-repeat; text-indent: -9999px; }
 /*ul li.googleplus a { width: 32px; height: 32px; display: block; background: transparent url('/images/googleplus_icn.svg') top center no-repeat; text-indent: -9999px; }*/
 ul li.twitter a { width: 32px; height: 32px; display: block; background: transparent url('/images/twitter.svg') top center no-repeat; text-indent: -9999px; }
+ul li.mastodon a { width: 32px; height: 32px; display: block; background: transparent url('/images/mastodon.svg') top center no-repeat; text-indent: -9999px; }
 ul li.strava a { width: 32px; height: 32px; display: block; background: transparent url('/images/strava.svg') top center no-repeat; text-indent: -9999px; }
 ul li.email a { width: 32px; height: 32px; display: block; background: transparent url('/images/at-email.svg') top center no-repeat; text-indent: -9999px; }
 
